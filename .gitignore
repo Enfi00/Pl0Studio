@@ -1,0 +1,13 @@
+# Qt Creator & Build artifacts
+build*/
+*.user
+*.o
+*.obj
+Makefile*
+
+# Executables
+Pl0Studio
+
+# OS files
+.DS_Store
+.directory
