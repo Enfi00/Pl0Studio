@@ -1,0 +1,4 @@
+set(__QT_DEPLOY_TARGET_pl0_core_FILE /home/ihor/Desktop/MyCompilerProject/build/Desktop_Qt_6_9_3-Debug/pl0_core)
+set(__QT_DEPLOY_TARGET_pl0_core_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_Pl0Studio_FILE /home/ihor/Desktop/MyCompilerProject/build/Desktop_Qt_6_9_3-Debug/Pl0Studio)
+set(__QT_DEPLOY_TARGET_Pl0Studio_TYPE EXECUTABLE)

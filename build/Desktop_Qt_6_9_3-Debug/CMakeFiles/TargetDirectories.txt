@@ -1,0 +1,6 @@
+/home/ihor/Desktop/MyCompilerProject/build/Desktop_Qt_6_9_3-Debug/CMakeFiles/pl0_core.dir
+/home/ihor/Desktop/MyCompilerProject/build/Desktop_Qt_6_9_3-Debug/CMakeFiles/Pl0Studio.dir
+/home/ihor/Desktop/MyCompilerProject/build/Desktop_Qt_6_9_3-Debug/CMakeFiles/edit_cache.dir
+/home/ihor/Desktop/MyCompilerProject/build/Desktop_Qt_6_9_3-Debug/CMakeFiles/rebuild_cache.dir
+/home/ihor/Desktop/MyCompilerProject/build/Desktop_Qt_6_9_3-Debug/CMakeFiles/Pl0Studio_autogen_timestamp_deps.dir
+/home/ihor/Desktop/MyCompilerProject/build/Desktop_Qt_6_9_3-Debug/CMakeFiles/Pl0Studio_autogen.dir

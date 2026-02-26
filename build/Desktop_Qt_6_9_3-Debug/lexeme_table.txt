@@ -1,0 +1,6 @@
+Line	Type		Value
+----------------------------------------
+
+
+--- Errors ---
+_Ihor: Fatal Error at line 1: Ihor_Structure Error: Program must start with '#' (Header missing)

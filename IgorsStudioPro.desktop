@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Igor's Studio Pro
+Comment=PL/0 Compiler Environment
+Exec=/home/ihor/Desktop/MyCompilerProject/build/Desktop_Qt_6_9_3-Debug/Pl0Studio
+Path=/home/ihor/Desktop/MyCompilerProject/build/Desktop_Qt_6_9_3-Debug/
+Icon=system-run
+Terminal=false
+StartupNotify=true
