@@ -1,0 +1,46 @@
+#program ifel;
+variable a, b, c, max;
+
+start
+    output "Enter A, B, C:";
+    input a;
+    input b;
+    input c;
+
+    /$ Знайти найбільше (вкладений if) $/
+    if a >> b then
+        if a >> c then
+            max -> a;
+        else
+            max -> c;
+    else
+        if b >> c then
+            max -> b;
+        else
+            max -> c;
+
+    output "Max value:";
+    output max;
+
+    /$ Усі числа однакові: (А=В) і (А=С) і (В=С) $/
+    output "Check Equals (А=В) & (А=С) & (В=С):";
+    if (a eq b) & (a eq c) & (b eq c) then
+        output "true";
+    else
+        output "false";
+
+    /$ Хоча б одне від'ємне: (А<0) або (В<0) або (С<0) $/
+    output "Check Neg: (А<0) && (В<0) && (С<0):";
+    if (a << 0) | (b << 0) | (c << 0) then
+        output "true";
+    else
+        output "false";
+
+    /$ А більше за суму В і С: !(А<(В+С)) $/
+    output "Check Sum: !(А<(В+С))";
+    if !(a << (b add c)) then
+        output "true";
+    else
+        output "false";
+stop
+

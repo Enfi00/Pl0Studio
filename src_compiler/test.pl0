@@ -1,0 +1,18 @@
+#program test;
+variable a, b, i;
+start
+    a -> 10;
+    b -> 5;
+
+    /$ Тест арифметики $/
+    c -> b add a; 
+
+    /$ Тест вводу виводу $/
+    output b;
+
+    /$ Тест циклу for downto $/
+    for i -> 5 downto 1 do
+    start
+         output i;
+    stop
+stop

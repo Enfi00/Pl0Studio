@@ -1,0 +1,117 @@
+Line	Type		Value
+----------------------------------------
+1	#		----
+1	program		----
+1	identifier	lin
+1	;		----
+2	variable	----
+2	identifier	a
+2	,		----
+2	identifier	b
+2	,		----
+2	identifier	x
+2	,		----
+2	identifier	y
+2	;		----
+4	start		----
+5	output		----
+5	string		"Enter A:"
+5	;		----
+6	input		----
+6	identifier	a
+6	;		----
+7	output		----
+7	string		"Enter B:"
+7	;		----
+8	input		----
+8	UNKNOWN		b.0
+8	;		----
+11	output		----
+11	string		"A + B:"
+11	;		----
+12	output		----
+12	identifier	a
+12	add		----
+12	identifier	b
+12	;		----
+14	output		----
+14	string		"A - B:"
+14	;		----
+15	output		----
+15	identifier	a
+15	sub		----
+15	identifier	b
+15	;		----
+17	output		----
+17	string		"A * B:"
+17	;		----
+18	output		----
+18	identifier	a
+18	*		----
+18	identifier	b
+18	;		----
+20	output		----
+20	string		"A / B:"
+20	;		----
+21	output		----
+21	identifier	a
+21	/		----
+21	identifier	b
+21	;		----
+23	output		----
+23	string		"A % B:"
+23	;		----
+24	output		----
+24	identifier	a
+24	%		----
+24	identifier	b
+24	;		----
+28	identifier	x
+28	->		----
+28	(		(
+28	identifier	a
+28	sub		----
+28	identifier	b
+28	)		)
+28	*		----
+28	number		10
+28	add		----
+28	(		(
+28	identifier	a
+28	add		----
+28	identifier	b
+28	)		)
+28	/		----
+28	UNKNOWN		10dsds
+28	;		----
+31	identifier	y
+31	->		----
+31	identifier	x
+31	add		----
+31	identifier	x
+31	%		----
+31	number		10
+31	;		----
+34	output		----
+34	string		"X value:"
+34	;		----
+35	output		----
+35	identifier	x
+35	;		----
+36	output		----
+36	string		"Y value:"
+36	;		----
+37	output		----
+37	identifier	y
+37	;		----
+38	stop		----
+
+
+--- Errors ---
+Lexical Error: Invalid character in identifier 'b.0'
+_Ihor: Error at line 8: Syntax Error: Expected identifier after input
+Lexical Error: Invalid number format '10dsds'
+_Ihor: Error at line 28: Syntax Error: Expected identifier, number, '(' or NOT
+Runtime Error: Invalid input format (must be a valid int32 number) (Variable: a)
+Runtime Error: Invalid input format (must be a valid int32 number) (Variable: a)
+Runtime Error: Invalid input format (not a number) (Variable: a)

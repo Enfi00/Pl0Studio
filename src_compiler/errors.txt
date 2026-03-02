@@ -1,0 +1,4 @@
+Lexical Error: Invalid character in identifier 'b.0'
+_Ihor: Error at line 8: Syntax Error: Expected identifier after input
+Lexical Error: Invalid number format '10dsds'
+_Ihor: Error at line 28: Syntax Error: Expected identifier, number, '(' or NOT

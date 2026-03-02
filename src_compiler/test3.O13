@@ -1,0 +1,33 @@
+#program cycl;
+variable a, b, i, j, x;
+
+start
+    output "Enter A and B (B > A):";
+    input a;
+    input b;
+
+    /$ Квадрати чисел від А до В $/
+    output "Squares:";
+    for i -> b downto a do
+    start
+        output i * i;
+    stop
+
+    /$ Обрахувати Х=А*В через додавання (вкладений цикл) $/
+    x -> 0;
+    
+    /$ Зовнішній цикл: 1 до A  $/
+    for i -> a downto 1 do
+    start
+        /$ Внутрішній цикл: 1 до B $/
+        for j -> b downto 1 do
+        start
+            x -> x add 1;
+        stop
+    stop
+
+    /$ 4. Вивід X $/
+    output "Result X = (A*B):";
+    output x;
+stop
+

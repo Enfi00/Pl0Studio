@@ -1,0 +1,41 @@
+#program lin;
+variable a, b, x, y;
+
+start
+    output "Enter A:";
+    input a;
+    output "Enter B:";
+    input b;
+
+    /$ Вивід результатів операцій $/
+    output "A + B:";
+    output a add b;
+
+    output "A - B:";
+    output a sub b;
+
+    output "A * B:";
+    output a * b;
+
+    output "A / B:";
+    output a / b;
+
+    output "A % B:";
+    output a % b;
+
+    /$ Обрахунок виразів $/
+    /$ Х = (А - В) * 10 + (А + В) / 10 $/
+    x -> (a sub b) * 10 add (a add b) / 10;
+
+    /$ У = Х + Х % 10 $/
+    y -> x add x % 10;
+
+    /$ Вивід X та Y $/
+    output "Х = (А - В) * 10 + (А + В) / 10";
+    output "X = ";
+    output x;
+    output "У = Х + Х % 10";
+    output "X = ";
+    output y;
+stop
+

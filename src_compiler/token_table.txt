@@ -1,0 +1,43 @@
+LINE  | TYPE                 | VALUE
+---------------------------------------------------
+1     | HASH                 | #
+1     | KEYWORD_PROGRAM      | program
+1     | IDENTIFIER           | test
+2     | KEYWORD_VARIABLE     | variable
+2     | NUMBER               | 0
+2     | IDENTIFIER           | a
+2     | UNKNOWN              | b_0,
+2     | IDENTIFIER           | i
+2     | NUMBER               | 0
+3     | KEYWORD_START        | start
+3     | IDENTIFIER           | a
+3     | OP_ASSIGN            | ->
+3     | NUMBER               | 10
+4     | IDENTIFIER           | b
+4     | OP_ASSIGN            | ->
+4     | UNKNOWN              | 5@
+7     | IDENTIFIER           | c
+7     | OP_ASSIGN            | ->
+7     | IDENTIFIER           | b
+7     | OP_ADD               | add
+7     | IDENTIFIER           | a
+10    | KEYWORD_OUTPUT       | output
+10    | UNKNOWN              | b_0
+13    | KEYWORD_FOR          | for
+13    | IDENTIFIER           | i
+13    | OP_ASSIGN            | ->
+13    | NUMBER               | 5
+13    | KEYWORD_DOWNTO       | downto
+13    | NUMBER               | 1
+13    | KEYWORD_DO           | do
+13    | KEYWORD_START        | start
+13    | KEYWORD_OUTPUT       | output
+13    | IDENTIFIER           | i
+14    | KEYWORD_STOP         | stop
+14    | KEYWORD_STOP         | stop
+
+---------------------------------------------------
+ERROR SUMMARY:
+Ihor_LexicalError: Line 2 - invalid identifier format: b_0,
+Ihor_LexicalError: Line 4 - malformed number: 5@
+Ihor_LexicalError: Line 10 - invalid identifier format: b_0
