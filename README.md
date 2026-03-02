@@ -70,7 +70,7 @@ git clone [https://github.com/Enfi00/c-compiler.git](https://github.com/Enfi00/c
 3. Run the Application
 
 After a successful build, you can run the application directly from Qt Creator (the Run button or Ctrl+R). Alternatively, you can run the compiled executable directly from the build folder via terminal:
-Bash
-
+```ebnf
 cd build/Desktop_Qt_6_9_3-Debug
 ./Pl0Studio
+```
