@@ -74,3 +74,4 @@ After a successful build, you can run the application directly from Qt Creator (
 cd build/Desktop_Qt_6_9_3-Debug
 ./Pl0Studio
 ```
+<img width="1204" height="850" alt="зображення" src="https://github.com/user-attachments/assets/330ca245-4fcf-4d45-8134-075af8bda348" />
